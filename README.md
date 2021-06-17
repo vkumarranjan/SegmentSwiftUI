@@ -1,1 +1,2 @@
 # SegmentSwiftUI
+![](SS.png)
