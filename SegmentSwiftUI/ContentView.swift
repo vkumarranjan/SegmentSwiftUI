@@ -33,28 +33,11 @@ struct ContentView: View {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 enum SlideOfTheForce: String, CaseIterable {
     case bike1 = "bike1"
     case bike2 = "bike2"
     case bike3 = "bike3"
 }
-
 
 struct ChosenBikeView: View {
     
@@ -82,9 +65,6 @@ struct BikeImageView: View {
             .frame(width: 320, height: 550)
             .shadow(color: .white, radius: 100)
     }
-
-    
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
